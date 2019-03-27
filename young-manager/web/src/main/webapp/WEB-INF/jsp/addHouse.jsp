@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>验证信息</title>
     <link rel="stylesheet" href="layui/css/layui.css">
+    <script type="text/javascript" src="js/layui.all.js"></script>
 </head>
 <body>
 <div class="wrapper" style="width: 900px;margin-top: 40px">
@@ -57,7 +58,7 @@
         <div class="layui-form-item">
             <label class="layui-form-label">邮箱</label>
             <div class="layui-input-block">
-                <input type="text" name="email" value="${loginUser.email}" required lay-verify="required" placeholder=""
+                <input type="text" name="email" value="${loginUser.email}" required lay-verify="email" placeholder=""
                 autocomplete="off" class="layui-input">
             </div>
         </div>
@@ -101,6 +102,8 @@
                 }
             }
         });
+
+
 
         var demoListView = $('#detailsList')
             ,uploadListIns = upload.render({

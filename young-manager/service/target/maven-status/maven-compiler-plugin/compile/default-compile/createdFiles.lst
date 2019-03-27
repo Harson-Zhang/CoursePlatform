@@ -1,0 +1,8 @@
+cn\young\manager\service\Impl\UserServiceImpl.class
+cn\young\manager\service\Impl\BadWordUtil2.class
+cn\young\manager\service\Impl\AdminServiceImpl.class
+cn\young\manager\service\Impl\HotCourseServiceImpl.class
+cn\young\manager\service\Impl\CourseImpl.class
+cn\young\manager\service\Impl\CourseSelectedServiceImpl.class
+cn\young\manager\service\Impl\SchoolServiceImpl.class
+cn\young\manager\service\Impl\EvaluationServiceImpl.class

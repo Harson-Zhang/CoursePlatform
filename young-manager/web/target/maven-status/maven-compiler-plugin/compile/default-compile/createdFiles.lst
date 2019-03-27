@@ -1,0 +1,10 @@
+cn\young\manager\web\controller\CookieUtils.class
+cn\young\manager\web\controller\HotCourseController.class
+cn\young\manager\web\controller\AdminController.class
+cn\young\manager\web\controller\CourseDetailsController.class
+cn\young\manager\web\controller\RemarkController.class
+cn\young\manager\web\controller\CourseController.class
+cn\young\manager\web\controller\SchoolController.class
+cn\young\manager\web\controller\RecommendController.class
+cn\young\manager\web\controller\RecommendController$1.class
+cn\young\manager\web\controller\UserController.class

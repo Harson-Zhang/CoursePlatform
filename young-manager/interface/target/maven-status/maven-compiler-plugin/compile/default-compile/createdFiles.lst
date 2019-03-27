@@ -1,0 +1,7 @@
+cn\young\manager\service\AdminService.class
+cn\young\manager\service\UserService.class
+cn\young\manager\service\HotCourseService.class
+cn\young\manager\service\CourseSelectedService.class
+cn\young\manager\service\SchoolService.class
+cn\young\manager\service\EvaluationService.class
+cn\young\manager\service\CourseService.class

@@ -328,25 +328,28 @@
 
         //注册
         $('#registSubmit').click(function () {
-            if ($("input[name='uname']").val() != "" && $("input[id='registPassword']").val() != "" && $("input[name='telephone']").val() != "" && $("input[id='confirmPassword']").val() != "") {
-                if ($("input[id='registPassword']").val() != $("input[id='confirmPassword']").val()) {
+            if($("input[name='uname']").val()!=""&&$("input[id='registPassword']").val()!=""&&$("input[name='telephone']").val()!=""&&$("input[id='confirmPassword']").val()!=""){
+                if(!(/^1[34578]\d{9}$/.test($("input[name='telephone']").val()))){
+                    layer.msg("请输入正确的手机号！");
+                }
+                else if($("input[id='registPassword']").val()!=$("input[id='confirmPassword']").val()){
                     layer.msg("两次输入的密码不一致！");
-                    $("input[id='registPassword']").val() == "";
-                    $("input[id='confirmPassword']").val() == "";
+                    $("input[id='registPassword']").val()=="";
+                    $("input[id='confirmPassword']").val()=="";
 
-                } else {
-                    $.post("regist", $('.form').serialize(), function (res) {
+                }else{
+                    $.post("regist",$('.form').serialize(),function (res) {
                         console.log(res);
-                        if (res == 'OK') {
+                        if(res=='OK'){
                             layer.close(layer_index);
-                            layer.alert("注册成功!", {icon: 1, time: 2000});
+                            layer.alert("注册成功",{icon:1,time:2000});
                             $('.form')[0].reset();
-                        } else {
-                            layer.msg("注册失败!");
+                        }else{
+                            layer.msg("注册失败,用户名已存在");
                         }
                     })
                 }
-            } else {
+            }else{
                 layer.msg("请填写所有表单");
             }
         });

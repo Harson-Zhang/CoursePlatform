@@ -1,7 +1,6 @@
 package cn.young.manager.web.controller;
 
 import cn.young.manager.pojo.Course;
-import cn.young.manager.pojo.HotCourse;
 import cn.young.manager.service.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
