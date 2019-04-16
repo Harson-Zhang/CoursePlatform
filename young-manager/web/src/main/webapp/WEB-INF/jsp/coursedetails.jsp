@@ -81,7 +81,7 @@
                 <h3>&nbsp;课程简介</h3>
             </div>
             <div class="course-info" style="color:#525252; width: 660px; font-size: 15px; padding: 10px 10px;">
-                <c:if test="${Course.courseDes == '' || Course.courseDes == ' '}">
+                <c:if test="${Course.courseDes == null || Course.courseDes == ''}">
                     <p style="line-height: 150%">
                         这是一门涉及${Course.courseName}的科目，请同学们提前做好预习工作(*╹▽╹*)
                     </p>
@@ -220,19 +220,34 @@
 
         <%--AJAX获取课程评价分页内容--%>
         <%--<div id="paging-comment"></div>--%>
-
-            <c:forEach items="${UserRemarkList}" var="Remark" varStatus="status">
-                <div class="comment">
-                    <div class="imgdiv"><img class="imgcss" src="${Remark.uimage}"/></div>
-                    <div class="conmment_details">
-                        <span class="comment_name ">${Remark.uname} </span>
-                        <span id="userrate${status.index}"></span>
-                        <span><fmt:formatDate value="${Remark.content_date}" pattern="yyyy年MM月dd日"/></span>
-                        <div class="comment_content">  ${Remark.content}</div>
+            <c:if test="${fn:length(UserRemarkList) == 0}">
+                <div class="layui-row" style="padding: 5px 20px;">
+                    <div class="layui-col-md6">
+                        <i class="layui-icon layui-icon-dialogue" style="color: #CCCCCC; font-size: 80px; float: right"></i>
                     </div>
+                    <div class="layui-col-md6">
+                        <div class="layui-col-md12" style="padding-top: 30px; font-size: 20px">
+                            &nbsp&nbsp<a style="color:#CCCCCC; ">赶紧选择课程，参与评价吧！</a>
+                        </div>
+                    </div>
+
                 </div>
-                <hr>
-            </c:forEach>
+            </c:if>
+
+            <c:if test="${fn:length(UserRemarkList) > 0}">
+                <c:forEach items="${UserRemarkList}" var="Remark" varStatus="status">
+                    <div class="comment">
+                        <div class="imgdiv"><img class="imgcss" src="${Remark.uimage}"/></div>
+                        <div style="padding-left: 80px">
+                            <span class="comment_name ">${Remark.uname} </span>
+                            <span id="userrate${status.index}"></span>
+                            <span><fmt:formatDate value="${Remark.content_date}" pattern="yyyy年MM月dd日"/></span>
+                            <div class="comment_content">&nbsp;&nbsp;${Remark.content}</div>
+                        </div>
+                    </div>
+                    <hr>
+                </c:forEach>
+            </c:if>
 
         <div id="paging" style="text-align: center;"></div>
 

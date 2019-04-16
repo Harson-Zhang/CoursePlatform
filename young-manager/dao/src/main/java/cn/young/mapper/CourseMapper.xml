@@ -357,6 +357,7 @@
   <!--ORDER BY course_selectnum-->
   <!--DESC limit 8-->
   <!--</select>-->
+   <!-- 热门课程查询 -->
   <select id="findAllHotCourse" resultMap="BaseResultMap">
  SELECT * FROM course WHERE cid IN (
 	SELECT t.cid FROM(
@@ -378,5 +379,22 @@
         WHERE
         course_code=#{courseCode} limit 1
     </select>
+
+  <select id="getAllCourse" resultMap="BaseResultMap">
+    select *
+    from course
+  </select>
+
+  <update id="updateCourseDesByCid">
+    update course
+    set course_des = #{course_des}
+    where cid = #{cid}
+  </update>
+
+  <update id="updateCourseInfoByCid">
+    update course
+    set course_info = #{course_info}
+    where cid = #{cid}
+  </update>
 
 </mapper>

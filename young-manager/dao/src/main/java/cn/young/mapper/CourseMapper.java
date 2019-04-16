@@ -79,4 +79,13 @@ public interface CourseMapper {
 
     Course selectCourseName(Course course);
 
+    /**
+     * 获取所有课程（用于清洗数据）
+     * @return
+     */
+    List<Course> getAllCourse();
+
+    void updateCourseDesByCid(@Param("cid") Long cid, @Param("course_des") String course_des);
+
+    void updateCourseInfoByCid(@Param("cid") Long cid, @Param("course_info") String course_info);
 }

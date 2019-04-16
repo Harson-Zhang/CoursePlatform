@@ -11,12 +11,9 @@
 	padding-bottom: 15px;
 }
 
-.comment_details {
-	float:left;
-}
 .comment_content {
 	margin-top:5px;
-	font-size:16px;
+	font-size:15px;
 }
 .comment_add_or_last {
 	

@@ -379,4 +379,21 @@
         course_code=#{courseCode} limit 1
     </select>
 
+  <select id="getAllCourse" resultMap="BaseResultMap">
+    select *
+    from course
+  </select>
+
+  <update id="updateCourseDesByCid">
+    update course
+    set course_des = #{course_des}
+    where cid = #{cid}
+  </update>
+
+  <update id="updateCourseInfoByCid">
+    update course
+    set course_info = #{course_info}
+    where cid = #{cid}
+  </update>
+
 </mapper>

@@ -13,6 +13,8 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @Service
 public class CourseImpl implements CourseService {
@@ -27,7 +29,6 @@ public class CourseImpl implements CourseService {
     private CourseSelectedMapper courseSelectedMapper;
 
     /**
-     *
      * @param id
      * @return
      */
@@ -37,14 +38,13 @@ public class CourseImpl implements CourseService {
     }
 
     /**
-     *
      * @param page
      * @param rows
      * @return
      */
     @Override
     public EasyUIDataGrid getCourseList(int page, int rows) {
-        PageHelper.startPage(page,rows);
+        PageHelper.startPage(page, rows);
         //执行查询
         CourseExample courseExample = new CourseExample();
         courseExample.setOrderByClause("course_selectnum");
@@ -58,14 +58,14 @@ public class CourseImpl implements CourseService {
     }
 
     @Override
-    public  List<Course> selectAllCourseBySchoolName(String sname) {
+    public List<Course> selectAllCourseBySchoolName(String sname) {
         List<Course> courses = courseMapper.selectAllCourseBySchoolName(sname);
         return courses;
     }
 
     @Override
     public EasyUIDataGrid selectAllCourseBySchool(String sname) {
-        PageHelper.startPage(30,8);
+        PageHelper.startPage(30, 8);
         //执行查询
         List<Course> courses = courseMapper.selectAllCourseBySchoolName(sname);
         PageInfo<Course> pageInfo = new PageInfo(courses);
@@ -83,16 +83,24 @@ public class CourseImpl implements CourseService {
 
     /**
      * 通过课程id获取课程信息
+     *
      * @param cid
      * @return
      */
     @Override
     public Course getCourseByCid(int cid) {
-        return courseMapper.selectByPrimaryKey((long) cid);
+        Course course = courseMapper.selectByPrimaryKey((long) cid);
+        String course_des = course.getCourseDes();
+        if(course_des != null){
+            String res1 = course_des.replace('\u3000', ' ');
+            String res2 = res1.replace('\n', ' ');
+            course.setCourseDes(res2.trim());
+        }
+        return course;
     }
 
     @Override
-    public List<Course> findCourseBySid(Page page){
+    public List<Course> findCourseBySid(Page page) {
         List<Course> courses = courseMapper.findCourseBySid(page);
         return courses;
 
@@ -101,7 +109,7 @@ public class CourseImpl implements CourseService {
     @Override
     public PagingData<Course> getMyCourseByUid(int uid, int page, int limit) {
 
-       //根据uid，查询所选课程的cid
+        //根据uid，查询所选课程的cid
         int index = (page - 1) * limit;
         List<Integer> cidList = courseSelectedMapper.getLimitedCidByUid(uid, index, limit);
 
