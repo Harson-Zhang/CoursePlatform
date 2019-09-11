@@ -1,6 +1,6 @@
 package cn.young.service;
 
-import cn.young.manager.impl.CourseImpl;
+import cn.young.manager.service.impl.CourseImpl;
 import cn.young.manager.mapper.CourseMapper;
 import cn.young.manager.pojo.Course;
 import org.apache.ibatis.session.SqlSession;
@@ -28,7 +28,7 @@ public class CourseServiceTest {
     CourseImpl courseImpl;
 
     @Test
-    public void testCourse(){
+    public void testCourse() {
         courseImpl.findAllHotCourse();
     }
 

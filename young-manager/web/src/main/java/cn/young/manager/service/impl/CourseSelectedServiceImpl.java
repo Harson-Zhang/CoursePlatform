@@ -1,4 +1,4 @@
-package cn.young.manager.impl;
+package cn.young.manager.service.impl;
 
 
 import cn.young.common.pojo.EasyUIDataGrid;

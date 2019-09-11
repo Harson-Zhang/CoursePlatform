@@ -1,4 +1,4 @@
-package cn.young.manager.impl;
+package cn.young.manager.service.impl;
 
 import cn.young.common.pojo.EasyUIDataGrid;
 import cn.young.manager.common.RedisPool;
@@ -145,13 +145,14 @@ public class CourseImpl implements CourseService {
         List<Course> courses = null;
         try (Jedis jedis = RedisPool.getResource()) {
             hotCourseList = jedis.hvals(HOT_PREFIX);
-            if (hotCourseList == null){
+            if (hotCourseList == null || hotCourseList.size()==0){
                 List<Course> hotCourses = courseMapper.findAllHotCourse();
                 for (Course course: hotCourses){
                     String s = SerializeUtil.writeCourseObject(course);
                     jedis.hset(HOT_PREFIX, course.getCid()+"", s);
                 }
                 jedis.expire(HOT_PREFIX, 600); //设置10分钟更新一次数据
+                hotCourseList = jedis.hvals(HOT_PREFIX);
             }
             courses = hotCourseList.stream().map(SerializeUtil::readCourseObject).collect(Collectors.toList());
         }
@@ -166,7 +167,22 @@ public class CourseImpl implements CourseService {
     @Override
     public List<Course> getRecommendCourse() {
         // 引入Redis
-
-        return courseMapper.getRecommendCourse();
+        // 引入Redis，设置过期时间10分钟
+        List<String> hotCourseList = null;
+        List<Course> courses = null;
+        try (Jedis jedis = RedisPool.getResource()) {
+            hotCourseList = jedis.hvals(RECOMMAND_PREFIX);
+            if (hotCourseList == null || hotCourseList.size()==0){
+                List<Course> hotCourses = courseMapper.getRecommendCourse();
+                for (Course course: hotCourses){
+                    String s = SerializeUtil.writeCourseObject(course);
+                    jedis.hset(RECOMMAND_PREFIX, course.getCid()+"", s);
+                }
+                jedis.expire(RECOMMAND_PREFIX, 600); //设置10分钟更新一次数据
+                hotCourseList = jedis.hvals(RECOMMAND_PREFIX);
+            }
+            courses = hotCourseList.stream().map(SerializeUtil::readCourseObject).collect(Collectors.toList());
+        }
+        return courses;
     }
 }

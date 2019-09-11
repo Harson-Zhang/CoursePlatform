@@ -18,7 +18,7 @@
     <div class="layui-header title">
         <div class="layui-container">
             <div class="layui-logo layui-pull-left">
-                <img src="img/frontpagelogo.png" width="360px">
+                <img src="http://pxkc6qwb1.bkt.clouddn.com/image/young/frontpagelogo.png" width="360px">
             </div>
 
             <c:if test="${not empty loginUser }">
@@ -50,10 +50,10 @@
         </div>
     </div>
     <div carousel-item style="">
-        <div style="background: url('img/dongnan4.jpg')no-repeat center/cover"></div>
-        <div style="background: url('img/dongnan1.jpg')no-repeat center/cover"></div>
-        <div style="background: url('img/dongnan5.jpg')no-repeat center/cover"></div>
-        <div style="background: url('img/nanda1.jpg')no-repeat center/cover"></div>
+        <div style="background: url('http://pxkc6qwb1.bkt.clouddn.com/image/young/dongnan4.jpg')no-repeat center/cover"></div>
+        <div style="background: url('http://pxkc6qwb1.bkt.clouddn.com/image/young/dongnan1.jpg')no-repeat center/cover"></div>
+        <div style="background: url('http://pxkc6qwb1.bkt.clouddn.com/image/young/dongnan5.jpg')no-repeat center/cover"></div>
+        <div style="background: url('http://pxkc6qwb1.bkt.clouddn.com/image/young/nanda1.jpg')no-repeat center/cover"></div>
     </div>
 </div>
 
@@ -114,12 +114,6 @@
                                 <input type="text" name="telephone" required  lay-verify="required" autocomplete="off" class="layui-input">
                             </div>
                         </div>
-                        <%--                        <div class="layui-form-item">
-                                                    <label class="layui-form-label">昵称</label>
-                                                    <div class="layui-input-block">
-                                                        <input type="text" name="uNickName" required  lay-verify="required" placeholder="注册后不能修改" autocomplete="off" class="layui-input">
-                                                    </div>
-                                                </div>--%>
                     </form>
                     <div class="layui-form-item">
                     <input type="submit" id="registSubmit" class="layui-btn layui-btn-fluid layui-btn-radius layui-btn-normal regist-btn" value="立即注册" />
@@ -160,7 +154,7 @@
                                         <span><img src=""alt=""></span>
                                         <span><img src="img/dnxiaohui.png"width="25" height="15" style="vertical-align:middle">${h.schName}</span>
                                     </c:if>
-                                    <c:if test="${h.schName.trim() eq '中国科技大学'}">
+                                    <c:if test="${h.schName.trim() eq '中国科学技术大学'}">
 
                                         <span><img src=""alt=""></span>
                                         <span><img src="img/zkdxiaohui.png"width="25" height="15" style="vertical-align:middle">${h.schName}</span>
@@ -198,8 +192,16 @@
                                     <p><span class="planing">正在开课</span><span>${c.courseSelectnum}</span></p>
                                 </div>
                                 <div class="person">
-                                    <span><img src="" alt=""></span>
-                                    <span>${c.schName}</span>
+                                    <c:if test="${c.schName.trim() eq '东南大学'}">
+
+                                        <span><img src=""alt=""></span>
+                                        <span><img src="img/dnxiaohui.png"width="25" height="15" style="vertical-align:middle">${c.schName}</span>
+                                    </c:if>
+                                    <c:if test="${c.schName.trim() eq '中国科学技术大学'}">
+
+                                        <span><img src=""alt=""></span>
+                                        <span><img src="img/zkdxiaohui.png"width="25" height="15" style="vertical-align:middle">${c.schName}</span>
+                                    </c:if>
                                 </div>
                             </a>
                         </li>
