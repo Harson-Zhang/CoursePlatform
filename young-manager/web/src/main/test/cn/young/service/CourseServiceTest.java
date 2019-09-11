@@ -1,9 +1,11 @@
 package cn.young.service;
 
+import cn.young.manager.impl.CourseImpl;
+import cn.young.manager.mapper.CourseMapper;
 import cn.young.manager.pojo.Course;
-import cn.young.mapper.CourseMapper;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -16,11 +18,19 @@ import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 
-@ContextConfiguration(locations = {"classpath:spring/spring-dao.xml", "classpath:spring/spring-service.xml", "classpath:spring/springmvc.xml"})
+@ContextConfiguration(locations = {"classpath:spring/spring-dao.xml", "classpath:spring/spring-service.xml", "classpath:spring/spring.xml"})
 public class CourseServiceTest {
 
     @Autowired
     CourseMapper courseMapper;
+
+    @Autowired
+    CourseImpl courseImpl;
+
+    @Test
+    public void testCourse(){
+        courseImpl.findAllHotCourse();
+    }
 
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring/spring-dao.xml");
@@ -29,14 +39,7 @@ public class CourseServiceTest {
         SqlSession session = factory.openSession(true);
         try {
             CourseMapper courseMapper = session.getMapper(CourseMapper.class);
-            List<Course> courseList = courseMapper.getAllCourse();
-            for (Course course:courseList){
-                String course_info = course.getCourseInfo();
-                if (course_info != null){
-                    String res1 = course_info.replaceAll("\\s:", " 周");
-                    courseMapper.updateCourseInfoByCid(course.getCid(), res1);
-                }
-            }
+
 
         } finally {
             session.close();

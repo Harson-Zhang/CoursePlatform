@@ -1,8 +1,6 @@
 package cn.young.service;
 
-import cn.young.manager.pojo.CourseSelected;
-import cn.young.mapper.CourseMapper;
-import cn.young.mapper.CourseSelectedMapper;
+import cn.young.manager.mapper.CourseSelectedMapper;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.junit.runner.RunWith;
@@ -11,12 +9,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import java.util.List;
-
 
 @RunWith(SpringJUnit4ClassRunner.class)
-
-@ContextConfiguration(locations = {"classpath:spring/spring-dao.xml", "classpath:spring/spring-service.xml", "classpath:spring/springmvc.xml"})
+@ContextConfiguration(locations = {"classpath:spring/spring-dao.xml", "classpath:spring/spring-service.xml", "classpath:spring/spring.xml"})
 public class CourseSelectedServiceTest {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring/spring-dao.xml");
