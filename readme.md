@@ -1,73 +1,264 @@
-# ä»‹ç»
+<!-- GFM-TOC -->
+* [½éÉÜ](#½éÉÜ)
+* [ÏµÍ³¼Ü¹¹Í¼](#ÏµÍ³¼Ü¹¹Í¼)
+* [¸ºÔðÄ£¿é](#¸ºÔðÄ£¿é)
+* [Éæ¼°¼¼Êõ](#Éæ¼°¼¼Êõ)
+* [¾ßÌå¹¦ÄÜ](#¾ßÌå¹¦ÄÜ)
+        * [Ê×Ò³Ä£¿é](#Ê×Ò³Ä£¿é)
+        * [ÓÃ»§Ä£¿é](#ÓÃ»§Ä£¿é)
+        * [¿Î³ÌÄ£¿é](#¿Î³ÌÄ£¿é)
+        * [ÔºÐ£Ä£¿é](#ÔºÐ£Ä£¿é)
+        * [ºóÌ¨Ä£¿é](#ºóÌ¨Ä£¿é)
+* [ÐÔÄÜÓÅ»¯](#ÐÔÄÜÓÅ»¯)
+* [ÐÔÄÜ²âÊÔ](#ÐÔÄÜ²âÊÔ)
+<!-- GFM-TOC -->
 
-ä¸ºå­¦ç”Ÿæä¾›è‹å·žç‹¬å¢…æ¹–é«˜æ•™åŒºçš„å…¬å…±è¯¾ç¨‹ä¿¡æ¯ï¼Œå­¦ç”Ÿå¯ä»¥åœ¨ä¸Šé¢é€‰è¯¾ï¼Œå¹¶æ ¹æ®è¯¾ç¨‹ä¿¡æ¯å‰å¾€å¯¹åº”é™¢æ ¡å‚ä¸Žè¯¾ç¨‹
 
-URL: <http://zhx2019.cn/young> 
+# ½éÉÜ
 
-# è´Ÿè´£æ¨¡å—
+ÎªÑ§ÉúÌá¹©ËÕÖÝ¶ÀÊûºþ¸ß½ÌÇøµÄ¹«¹²¿Î³ÌÐÅÏ¢£¬Ñ§Éú¿ÉÒÔÔÚÉÏÃæÑ¡¿Î£¬²¢¸ù¾Ý¿Î³ÌÐÅÏ¢Ç°Íù¶ÔÓ¦ÔºÐ£²ÎÓë¿Î³Ì
 
-> 5äººå›¢é˜Ÿï¼ŒæŒ‰æ¨¡å—åˆ†å·¥ï¼Œåˆ†ä¸ºé¦–é¡µã€é™¢æ ¡ã€ç”¨æˆ·ä¿¡æ¯ã€è¯¾ç¨‹ã€åŽå°æ¨¡å—
-> æˆ‘ä½œä¸ºäº§å“è´Ÿè´£äººå’Œå‰åŽç«¯å¼€å‘è€…ï¼Œè´Ÿè´£ï¼š
+ÔÚÏßÑÝÊ¾: <http://zhx2019.cn/young> 
 
-- éœ€æ±‚åˆ†æž
-  - äº§å“ä»£åŠžåˆ—è¡¨+ç”¨ä¾‹å›¾
-  - å‚ä¸Žæ•°æ®åº“çš„è®¾è®¡
-- è¯¾ç¨‹æ¨¡å—
-  - è¯¾ç¨‹è¯¦æƒ…é¡µé¢ã€é€‰è¯¾åˆ—è¡¨ã€è¯¾ç¨‹è¯„ä»·çš„å‰åŽç«¯
-- PPTåˆ¶ä½œä¸Žå‘å¸ƒä¼šå±•ç¤º
-- å…¶ä»–
-  - çˆ¬è™«æ•°æ®æ¸…æ´—
+# ÏµÍ³¼Ü¹¹Í¼
 
-# æ¶‰åŠæŠ€æœ¯
+![courseÏµÍ³¼Ü¹¹Í¼.jpg](https://i.loli.net/2019/09/14/9SrWxzVXf3NbYZK.jpg)
 
-- é¡¹ç›®ç®¡ç†ï¼šMaven, Git
-- æ•°æ®åº“ï¼šMySQL
-- åŽç«¯ï¼šSSMæ¡†æž¶
-- å‰ç«¯ï¼šJsp+JQuery+LayUI
 
-# å…·ä½“åŠŸèƒ½
 
-> åŠ ç²—éƒ¨åˆ†ä¸ºæœ¬äººè´Ÿè´£/å‚ä¸Žçš„éƒ¨åˆ†
+# ¸ºÔðÄ£¿é
 
-### é¦–é¡µæ¨¡å—
+> 5ÈËÍÅ¶Ó£¬°´Ä£¿é·Ö¹¤£¬·ÖÎªÊ×Ò³¡¢ÔºÐ£¡¢ÓÃ»§ÐÅÏ¢¡¢¿Î³Ì¡¢ºóÌ¨Ä£¿é
+> ÎÒ×÷Îª²úÆ·¸ºÔðÈËºÍÇ°ºó¶Ë¿ª·¢Õß£¬¸ºÔð£º
 
-- **é¦–é¡µæŽ¨èè¯¾ç¨‹**ï¼ˆå‚ä¸ŽSQLè¯­å¥ä¹¦å†™ï¼‰
-- é¦–é¡µçƒ­é—¨è¯¾ç¨‹
-- è¯¾ç¨‹æœç´¢
-- åˆä½œé™¢æ ¡å±•ç¤º
-- é¦–é¡µè½®æ’­å›¾
-- é¦–é¡µé¡¶æ 
-- é¦–é¡µåº•æ 
+- ÐèÇó·ÖÎö
+  - ²úÆ·´ú°ìÁÐ±í+ÓÃÀýÍ¼
+  - ²ÎÓëÊý¾Ý¿âµÄÉè¼Æ
+- ¿Î³ÌÄ£¿é
+  - ¿Î³ÌÏêÇéÒ³Ãæ¡¢Ñ¡¿ÎÁÐ±í¡¢¿Î³ÌÆÀ¼ÛµÄÇ°ºó¶Ë
+- PPTÖÆ×÷Óë·¢²¼»áÕ¹Ê¾
+- ÆäËû
+  - ÅÀ³æÊý¾ÝÇåÏ´
+  - ÐÔÄÜÓÅ»¯
 
-### ç”¨æˆ·æ¨¡å—
+# Éæ¼°¼¼Êõ
 
-- æ³¨å†Œ
-- ç™»å½•
-- æ‰¾å›žå¯†ç 
-- æ³¨é”€
-- ä¸ªäººä¿¡æ¯è®¤è¯
-- æˆ‘çš„ä¸“å±žæŽ¨è
-- ä¿®æ”¹å¯†ç 
+- ÏîÄ¿¹ÜÀí£ºMaven, Git
+- Êý¾Ý¿â£ºMySQL
+- ºó¶Ë£ºSSM¿ò¼Ü
+- Ç°¶Ë£ºJsp+JQuery+LayUI
+- ÖÐ¼ä¼þ£ºRedis, Nginx
 
-### **è¯¾ç¨‹æ¨¡å—**
+# ¾ßÌå¹¦ÄÜ
 
-- **è¯¾ç¨‹ä»‹ç»**
-- **é€‰è¯¾åˆ—è¡¨**
-- **è¯„ä»·åˆ—è¡¨**
-- **é€‰æ‹©è¯¾ç¨‹**
-- **é€€å‡ºè¯¾ç¨‹**
-- **è¯¾ç¨‹è¯„ä»·**
+> ¼Ó´Ö²¿·ÖÎª±¾ÈË¸ºÔð/²ÎÓëµÄ²¿·Ö
 
-### é™¢æ ¡æ¨¡å—
+### Ê×Ò³Ä£¿é
 
-- é™¢æ ¡åˆ—è¡¨
-- é™¢æ ¡ä¿¡æ¯
+-  **Ê×Ò³ÍÆ¼ö¿Î³Ì** £¨²ÎÓëSQLÓï¾äÊéÐ´£©
+- Ê×Ò³ÈÈÃÅ¿Î³Ì
+- ¿Î³ÌËÑË÷
+- ºÏ×÷ÔºÐ£Õ¹Ê¾
+- Ê×Ò³ÂÖ²¥Í¼
+- Ê×Ò³¶¥À¸
+- Ê×Ò³µ×À¸
 
-### åŽå°æ¨¡å—
+### ÓÃ»§Ä£¿é
 
-- ç®¡ç†å‘˜ç™»å½•
-- ç”¨æˆ·ç®¡ç†
-- è¯¾ç¨‹ç®¡ç†
-- è¯¾ç¨‹è¯„ä»·ç®¡ç†
-- é€‰è¯¾ä¿¡æ¯ç®¡ç†
+- ×¢²á
+- µÇÂ¼
+- ÕÒ»ØÃÜÂë
+- ×¢Ïú
+- ¸öÈËÐÅÏ¢ÈÏÖ¤
+- ÎÒµÄ×¨ÊôÍÆ¼ö
+- ÐÞ¸ÄÃÜÂë
 
+### ¿Î³ÌÄ£¿é
+
+-  **¿Î³Ì½éÉÜ** 
+-  **Ñ¡¿ÎÁÐ±í** 
+-  **ÆÀ¼ÛÁÐ±í** 
+-  **Ñ¡Ôñ¿Î³Ì** 
+-  **ÍË³ö¿Î³Ì** 
+-  **¿Î³ÌÆÀ¼Û** 
+
+### ÔºÐ£Ä£¿é
+
+- ÔºÐ£ÁÐ±í
+- ÔºÐ£ÐÅÏ¢
+
+### ºóÌ¨Ä£¿é
+
+- ¹ÜÀíÔ±µÇÂ¼
+- ÓÃ»§¹ÜÀí
+- ¿Î³Ì¹ÜÀí
+- ¿Î³ÌÆÀ¼Û¹ÜÀí
+- Ñ¡¿ÎÐÅÏ¢¹ÜÀí
+
+# ÐÔÄÜÓÅ»¯
+ÎªÁËÌáÉýÍøÕ¾Ê×Ò³µÄ·ÃÎÊËÙ¶ÈºÍ²¢·¢Á¿£¬±¾ÈËÔÚÏîÄ¿ºóÆÚ½øÐÐÁËÈçÏÂÓÅ»¯£º
+1.  **ÒýÈëRedis»º´æ·Öµ£MySQLÑ¹Á¦** 
+    Âß¼­£ºÃ¿´Î²éÑ¯ÈÈµãÊý¾ÝÊ±£¬ÏÈÔÚRedisÖÐ²éÑ¯ÊÇ·ñ¾ßÓÐµ±Ç°Êý¾Ý£¨»º´æÃüÖÐ£©£¬Èç¹ûÃ»ÓÐÔò´ÓÊý¾Ý¿âÖÐ²é³öÀ´²¢·ÅÈëRedisÖÐ£¬ÉèÖÃ¹ýÆÚÊ±¼äÒÔ±£Ö¤Êý¾ÝÊ±Ð§ÐÔ¡£Ò»¶ÎÊ±¼äÄÚ¸ÃÊý¾ÝµÄ²éÑ¯ÎÞÐèÊý¾Ý¿âMySQLµÄ²ÎÓë£¬½«´ó´óÌáÉýÏµÍ³²¢·¢Á¿¡£
+
+  ÍøÕ¾Ê×Ò³µÄÈÈÃÅ¿Î³ÌºÍÍÆ¼ö¿Î³Ì´¦£¬Ê¹ÓÃRedisµÄMap½á¹¹»º´æ¿Î³ÌÊý¾Ý¡£ÆäÖÐkeyÎªÁ½¸ö×Ô¶¨Òå±êÊ¶·û£¬filedÎªÃ¿ÃÅ¿Î³ÌµÄid£¬valÎªÏà¹ØÊý¾Ý£¬´úÂëÈçÏÂ£º
+```java
+public List<Course> findAllHotCourse() {
+    // ÒýÈëRedis£¬ÉèÖÃ¹ýÆÚÊ±¼ä10·ÖÖÓ
+    List<String> hotCourseList = null;
+    List<Course> courses = null;
+    try (Jedis jedis = RedisPool.getResource()) {
+        hotCourseList = jedis.hvals(HOT_PREFIX);
+        if (hotCourseList == null || hotCourseList.size()==0){
+            List<Course> hotCourses = courseMapper.findAllHotCourse();
+            for (Course course: hotCourses){
+                String s = SerializeUtil.writeCourseObject(course);
+                jedis.hset(HOT_PREFIX, course.getCid()+"", s);
+            }
+            jedis.expire(HOT_PREFIX, 600); //ÉèÖÃ10·ÖÖÓ¸üÐÂÒ»´ÎÊý¾Ý
+            hotCourseList = jedis.hvals(HOT_PREFIX);
+        }
+        courses = hotCourseList.stream().map(SerializeUtil::readCourseObject).collect(Collectors.toList());
+    }
+    return courses;
+}
+```
+
+2.  **ÓÅ»¯RedisÐòÁÐ»¯Óë·´ÐòÁÐ»¯µÄ·½Ê½** 
+
+ÔÚÊµÏÖ Redis »º´æ¹¦ÄÜÊ±£¬ Java ×Ô´øµÄÐòÁÐ»¯·½Ê½»á½«Ò»¸ö¶ÔÏó×ª»»³É×Ö½ÚÊý×éÈ»ºó´æ´¢£¬ÕâÖÖ·½Ê½²¢²»¸ßÐ§£¬ÐòÁÐ»¯µÃµ½µÄÄÚÈÝÓÐºÜ¶àÊÇÀà¶¨ÒåµÄÄÚÈÝ£¬¶øÇÒÍøÕ¾Ê×Ò³ÓÃµ½µÄÊý¾ÝÒ²Ö»ÊÇCourse¶ÔÏóÖÐµÄ²¿·Ö×Ö¶Î¡£ÎÒÃÇÖ»ÐèÒª½«¼¸¸ö¹Ø¼ü×Ö¶ÎÆ´½Ó³É×Ö·û´®´æ´¢¼´¿É£¬ÊµÏÖ´úÂëÈçÏÂ£¬´Ë´¦²Î¿¼ÁË[CYC](https://github.com/CyC2018/MBlog#ÐòÁÐ»¯·½Ê½µÄÑ¡Ôñ)´ó´óµÄË¼Â·£º
+
+```java
+public class SerializeUtil {
+    private static final String separator = "/////";    
+    
+    public static String writeCourseObject(Course course) {        
+        StringBuilder s = new StringBuilder();        
+        s.append(course.getCid()).append(separator);        
+        s.append(course.getSchName()).append(separator);        
+        s.append(course.getCourseCode()).append(separator);       
+        s.append(course.getCourseName()).append(separator);       
+        s.append(course.getCourseSelectnum()).append(separator);       
+        s.append(course.getCourseImage());        
+        return s.toString();    
+    }    
+    
+    public static Course readCourseObject(String s) {
+        Course course = new Course();       
+        String[] token = s.split(separator);        
+        course.setCid(Long.valueOf(token[0]));        
+        course.setSchName(token[1]);        
+        course.setCourseCode(token[2]);        
+        course.setCourseName(token[3]);       
+        course.setCourseSelectnum(Integer.valueOf(token[4]));       
+        course.setCourseImage(token[5]);        
+        return course;    
+    }
+}
+```
+
+ÔËÐÐ/young-manager/web/src/main/test/cn/young/util/TestSerialize.java½øÐÐÐÔÄÜ²âÊÔ£¬µÃµ½½á¹ûÈçÏÂ£º
+
+> ===== ×Ô´ø×Ö½ÚÊý×éÐòÁÐ»¯ =====
+> ºÄ·Ñ¿Õ¼ä£º462×Ö½Ú
+> ÔËÐÐ10000´ÎºÄÊ±: 0.61ms
+> ===== ×Ô¶¨ÒåÐòÁÐ»¯¹¤¾ß =====
+> ºÄ·Ñ¿Õ¼ä£º70×Ö½Ú
+> ÔËÐÐ10000´ÎºÄÊ±: 0.08ms
+
+¿É¼ûÓÅ»¯µÄÐ§¹ûÏàµ±Ã÷ÏÔ¡£
+
+3.  **Ê¹ÓÃÍ¼Æ¬·þÎñÆ÷¼ÓÔØÍ¼Æ¬** 
+
+Ê¹ÓÃÆßÅ£ÔÆ·þÎñÆ÷µÄ¶ÔÏó´æ´¢¹¦ÄÜ£¬½«ÍøÕ¾µÄ´ó²¿·ÖÍ¼Ïñ×ªÒÆµ½Í¼Æ¬·þÎñÆ÷ÉÏ£¬¼õÇáÍøÕ¾µÄIOÑ¹Á¦¡£
+
+4.  **Nginx»º´æÒ³ÃæÎÄ¼þ** 
+
+µ±ÆôÓÃÁËNginxµÄ»º´æ¹¦ÄÜÊ±£¬Nginx»á½«ºó¶Ë·þÎñµÄÏìÓ¦±£´æÔÚ±¾µØ´ÅÅÌÉÏ¡£ºóÐøµÄÇëÇóÖ»ÒªÂú×ãÌõ¼þ¾Í»áÃüÖÐ»º´æ£¬Nginx¾Í²»»á½«ÇëÇó×ª·¢µ½ºó¶ËµÄ·þÎñÉÏ¡£¿ªÆôNginx»º´æÍ¬ÑùÄÜ¼õÇá·þÎñÆ÷Ñ¹Á¦¡£
+
+²¿·ÖÏà¹ØÅäÖÃÈçÏÂ£º
+
+```shell
+http {
+	...
+	#Cache
+	proxy_cache_path /tmp/cache levels=1:2 keys_zone=my_cache:10m max_size=1g inactive=60m 
+    use_temp_path=off;
+    
+    server {
+    	...
+    	
+    	location /young {
+			proxy_cache my_cache;
+			proxy_cache_methods GET HEAD POST;
+			proxy_cache_use_stale error timeout http_500 http_502 http_503 http_504;
+			proxy_cache_lock on;
+			
+			...
+			add_header X-Cache-Status $upstream_cache_status;
+		}
+    }
+}
+```
+
+ÆäÖÐ£¬¸÷²ÎÊýµÄº¬ÒåÈçÏÂ£º
+
+**proxy_cache_path /tmp/cache**  	ÓÃÓÚ»º´æµÄ±¾µØ´ÅÅÌÄ¿Â¼
+**levels=1:2**  	ÔÚ»º´æ´ÅÅÌÄ¿Â¼ÏÂÉèÖÃÁËÒ»¸öÁ½¼¶²ã´Î½á¹¹µÄÄ¿Â¼
+**keys_zone=my_cache:10m** 	ÉèÖÃÒ»¸ö¹²ÏíÄÚ´æÇømy_cacheÀ´´æ´¢»º´æ¼üºÍÔªÊý¾Ý£¬´óÐ¡10M
+**max_size=1g** 	»º´æÉÏÏÞ1g
+**inactive=60m** 	ÏîÄ¿ÔÚ²»±»·ÃÎÊµÄÇé¿öÏÂÄÜ¹»ÔÚÄÚ´æÖÐ±£³ÖµÄÊ±¼ä£¬60·ÖÖÓ
+**use_temp_path=off** 	nginx×î³õ»á½«¼´½«Ð´Èë»º´æµÄÎÄ¼þÏÈ·ÅÈëÒ»¸öÁÙÊ±´æ´¢ÇøÓò£¬½ûÓÃºó½«È¥³ý¸Ã²½Öè
+
+**proxy_cache my_cache** 	ÓÐÁ½¸ö²ÎÊý`zone`ºÍ`off`£¬ `zone`µÄÈ¡ÖµÊÇ`proxy_cache_path`Ö¸ÁîÖÐÖ¸¶¨µÄ¹²ÏíÄÚ´æÇøÓòÃû³ÆµÄÖµ£¨ÉÏÀýÖÐµÄmy_cache£©£¬ Èç¹ûÈ¡ÖµÎª`off`Ôò±íÊ¾½ûÓÃ»º´æ¹¦ÄÜ£¨×¢ÒâÏÞÖÆ·¶Î§£©
+**proxy_cache_methods GET HEAD POST**  	ÅäÖÃ¿ÉÒÔ´æ´¢Ê²Ã´·½·¨µÄÇëÇó
+**proxy_cache_use_stale error timeout http_500 http_502 http_503 http_504** 		µ±ÎÞ·¨´ÓÔ­Ê¼·þÎñÆ÷»ñÈ¡×îÐÂµÄÄÚÈÝÊ±£¨±ÈÈç·þÎñÆ÷å´»ú¡¢·±Ã¦£©£¬nginx¿ÉÒÔ·Ö·¢»º´æÖÐµÄ¡±¹ýÆÚ¡°ÄÚÈÝ
+**proxy_cache_lock on** 	µ±¶à¸ö¿Í»§¶ËÇëÇóÒ»¸ö»º´æÖÐ²»´æÔÚµÄÎÄ¼þÊ±£¬Ö»ÓÐµÚÒ»¸öÄÜ±»·¢µ½·þÎñÆ÷¡£ÆäËûÇëÇóÒªÃ´ÔÚµÚÒ»¸öÇëÇó»ñÈ¡ÎÄ¼þ³É¹¦ºó´Ó»º´æÖÐ»ñÈ¡ÎÄ¼þ£¬ÒªÃ´ÓÀÔ¶»ñÈ¡²»µ½ÎÄ¼þ
+**add_header X-Cache-Status $upstream_cache_status** 	Ìí¼ÓÓÃÀ´±êÊ¶»º´æ×´Ì¬µÄÇëÇóÍ·£¬upstream_cache_statusÓÐ¶àÖÖ×´Ì¬£¬ÆäÖÐ²¿·Ö²ÎÊý£º
+
+- HIT ¡ª¡ª ÏìÓ¦°üº¬À´×Ô»º´æµÄ×îÐÂÓÐÐ§µÄÄÚÈÝ¡£ 
+- MISS ¡ª¡ª ÏìÓ¦ÔÚ»º´æÖÐÕÒ²»µ½£¬ËùÒÔÐèÒªÔÚ·þÎñÆ÷ÖÐÈ¡µÃ
+- EXPIRED ¡ª¡ª »º´æÖÐµÄÄ³Ò»Ïî¹ýÆÚÁË£¬À´×ÔÔ­Ê¼·þÎñÆ÷µÄÏìÓ¦°üº¬×îÐÂµÄÄÚÈÝ
+
+NginxÅäÖÃÍê³Éºó£¬ÔÚChromeä¯ÀÀÆ÷´ò¿ª¡°¼ì²é - Network¡±£¬³¢ÊÔ¶à´Î¼ÓÔØºó£¬²é¿´ÍøÒ³Ò³ÃæµÄÏìÓ¦Í·£¬µÃµ½½á¹ûÈçÏÂ£º
+
+> HTTP/1.1 200 OK
+> Server: nginx/1.10.3 (Ubuntu)
+> Content-Type: text/html;charset=utf-8
+> Transfer-Encoding: chunked
+> Connection: keep-alive
+> Content-Language: zh-CN
+>  **X-Cache-Status: HIT** 
+> Content-Encoding: gzip
+
+´ú±íNginx»º´æÆô¶¯³É¹¦¡£
+
+# ÐÔÄÜ²âÊÔ
+Ò»¿ªÊ¼ÎÒ³¢ÊÔÊ¹ÓÃJMeterºÍ°¢ÀïÔÆPTS½øÐÐ²âÊÔ£¬¶Ô±ÈÒ»·¬ºó·¢ÏÖÏàÍ¬²¢·¢Á¿ÏÂ£¬JMeter²âÊÔÊ±·þÎñÆ÷CPUÊ¹ÓÃÂÊ±ÈPTSµÍ¼¸Ê®¸ö°Ù·Öµã£¬Ë½ÒÔÎªJMeterÄ£ÄâµÄ²¢·¢²»¹»ÕæÊµ£¬ËìÆúÖ®¡£
+ÓÉÓÚ¾­·ÑÓÐÏÞ£¬Ö»¹ºÂòÁË100²¢·¢Á¿µÄÑ¹²âÌ×²Í£¬ÇÒÖ»ÄÜ×ß¹«Íø²âÊÔ¡£ÎªÁË¾¡Á¿¼õÉÙÍøËÙ²¨¶¯µÄÓ°Ïì£¬Ñ¡ÓÃÏàÍ¬Ê±¼ä¶ÎÏÈºó¶ÔÓÅ»¯Ç°ºóµÄÍøÕ¾½øÐÐ²âÊÔ£¬ÆðÊ¼²¢·¢Á¿10£¬×îÖÕ²¢·¢Á¿100£¬³ÖÐøÊ±³¤6·ÖÖÓ¡£Ïà¹Ø²ÎÊýÓë½á¹ûÈçÏÂ£º
+
+**·þÎñÆ÷ÅäÖÃ** £º
+
+| CPU                                 | ÄÚ´æ | ´ø¿í       | ÏµÍ³ÅÌ  | ÏµÍ³¾µÏñ     |
+| ----------------------------------- | ---- | ---------- | ------- | ------------ |
+| Xeon Platinum 8163 CPU 2.50GHz µ¥ºË | 2G   | µ¯ÐÔ·åÖµ5M | SSD 40G | Ubuntu 16.04 |
+
+**Ñ¹²â½á¹û** £º
+
+| --     | ×ÜÇëÇóÊý | Æ½¾ùTPS | ÇëÇó³É¹¦ÂÊ        | Æ½¾ùÏìÓ¦Ê±¼ä/ms |
+| ------ | -------- | ------- | ----------------- | --------------- |
+| Ô­ÍøÕ¾ | 8992     | 24.98   | 36.94%(3322/5670) | 2273.95         |
+| ÏÖÍøÕ¾ | 8177     | 22.71   | 89.48%(7317/860)  | 2449.45         |
+
+**È«³¡¾°ÊÓÍ¼** £º
+
+- Ô­ÍøÕ¾
+
+![Ô­ÍøÕ¾Ñ¹²â.jpg](https://i.loli.net/2019/09/14/pZB7dOLo6wuS3Tr.jpg)
+
+- ÏÖÍøÕ¾
+
+![ÏÖÍøÕ¾Ñ¹²â.jpg](https://i.loli.net/2019/09/14/rywIXQia4pLBxcf.jpg)
+
+Ô­ÓÐÍøÕ¾ÔÚ²¢·¢Êý´ïµ½70Ê±£¬ÇëÇóÊ§°ÜÂÊ¼¤Ôö£¬²¢·¢Êý90Ê±»ù±¾ÎÞ³É¹¦ÇëÇó£»¶øÓÅ»¯ºóµÄÏÖÍøÕ¾ÔÚ²¢·¢100Ê±£¬ÈÔÄÜ±£³Ö80%×óÓÒµÄÇëÇó³É¹¦ÂÊ£¬¿É¼ûÓÅ»¯Ð§¹ûÏÔÖø£¡
+
+±¨¸æÁ´½Ó£º[Ô­ÍøÕ¾](http://pxkc6qwb1.bkt.clouddn.com/pdf/young/%E5%8E%8B%E6%B5%8B%20-%20%E5%8E%9F%E7%BD%91%E7%AB%99.pdf)¡¢[ÏÖÍøÕ¾](http://pxkc6qwb1.bkt.clouddn.com/pdf/young/%E5%8E%8B%E6%B5%8B%20-%20%E7%8E%B0%E7%BD%91%E7%AB%99.pdf)
