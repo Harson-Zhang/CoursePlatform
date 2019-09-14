@@ -5,35 +5,336 @@
       <artifact name="web:war exploded" />
     </artifacts-to-build>
   </component>
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/web/controller/HotCourseController.java" line="14" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="12b0aaa0-859d-4e64-8a9f-770558c55a80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/common/RedisPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/controller/CourseDetailsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/controller/HotCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/controller/RecommendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/controller/RemarkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/controller/SchoolController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/mapper/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/mapper/CourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/mapper/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/mapper/CourseSelectedMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/mapper/CourseSelectedMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/mapper/EvaluationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/mapper/EvaluationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/mapper/HotCourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/mapper/HotCourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/mapper/SchoolMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/mapper/SchoolMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/service/impl/CourseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/service/impl/CourseSelectedServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/service/impl/EvaluationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/service/impl/HotCourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/service/impl/SchoolServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/utils/BadWordUtil2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/utils/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/utils/SerializeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/resources/global.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/resources/spring/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/common/TestRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/util/TestSerialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/common/RedisPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/controller/CourseDetailsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/controller/HotCourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/controller/RecommendController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/controller/RecommendController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/controller/RemarkController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/controller/SchoolController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/mapper/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/mapper/CourseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/mapper/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/mapper/CourseSelectedMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/mapper/CourseSelectedMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/mapper/EvaluationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/mapper/EvaluationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/mapper/HotCourseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/mapper/HotCourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/mapper/SchoolMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/mapper/SchoolMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/CourseExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/CourseExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/CourseExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/CourseExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/CourseSelected.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/CourseSelectedExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/CourseSelectedExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/CourseSelectedExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/CourseSelectedExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/Evaluation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/EvaluationExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/EvaluationExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/EvaluationExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/EvaluationExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/HotCourse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/MyRemark.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/PagingData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/School.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/SchoolExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/SchoolExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/SchoolExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/SchoolExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/pojo/UserRemark.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/service/CourseSelectedService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/service/CourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/service/EvaluationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/service/HotCourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/service/SchoolService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/service/impl/CourseImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/service/impl/CourseSelectedServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/service/impl/EvaluationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/service/impl/HotCourseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/service/impl/SchoolServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/utils/BadWordUtil2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/utils/CookieUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/utils/PropertiesUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/utils/SerializeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/global.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/classes/spring/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/young-manager-web/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/young-manager-web/WEB-INF/classes/spring/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/young-manager-web/WEB-INF/classes/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/young-manager-web/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-manager/web/target/young-manager-web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-parent/target/classes/cn/young/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/CourseMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/CourseMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/CourseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/CourseMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/CourseMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/service/src/main/java/cn/young/manager/service/Impl/CourseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/service/src/main/java/cn/young/manager/service/Impl/CourseImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/service/target/classes/cn/young/manager/service/Impl/CourseImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/service/target/classes/cn/young/manager/service/Impl/CourseImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-common/src/test/java/cn/young/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-common/target/surefire-reports/TEST-cn.young.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-common/target/surefire-reports/cn.young.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-common/target/test-classes/cn/young/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-common/target/young-common.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/AdminMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/AdminMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/CourseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/CourseMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/CourseSelectedMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/CourseSelectedMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/EvaluationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/EvaluationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/HotCourseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/HotCourseMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/SchoolMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/SchoolMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/main/resources/generatorconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/resources/generatorconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/src/test/java/cn/young/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/META-INF/young-manager-dao.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/AdminMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/AdminMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/CourseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/CourseMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/CourseSelectedMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/CourseSelectedMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/EvaluationMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/EvaluationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/HotCourseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/HotCourseMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/SchoolMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/SchoolMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/cn/young/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/classes/generatorconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/classes/generatorconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/dao/target/test-classes/cn/young/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/src/main/java/cn/young/manager/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/src/main/java/cn/young/manager/service/CourseSelectedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/service/CourseSelectedService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/src/main/java/cn/young/manager/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/src/main/java/cn/young/manager/service/EvaluationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/service/EvaluationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/src/main/java/cn/young/manager/service/HotCourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/service/HotCourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/src/main/java/cn/young/manager/service/SchoolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/service/SchoolService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/src/main/java/cn/young/manager/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/src/test/java/service/CourseSelectedServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/src/test/java/service/EvaluationServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/src/test/java/service/UserServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/target/classes/cn/young/manager/service/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/target/classes/cn/young/manager/service/CourseSelectedService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/target/classes/cn/young/manager/service/CourseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/target/classes/cn/young/manager/service/EvaluationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/target/classes/cn/young/manager/service/HotCourseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/target/classes/cn/young/manager/service/SchoolService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/target/classes/cn/young/manager/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/target/test-classes/META-INF/young-manager-interface.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/target/test-classes/service/CourseSelectedServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/target/test-classes/service/EvaluationServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/interface/target/test-classes/service/UserServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/pojo/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/pojo/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/CourseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/pojo/CourseExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/CourseSelected.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/pojo/CourseSelected.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/CourseSelectedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/pojo/CourseSelectedExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/Evaluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/pojo/Evaluation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/EvaluationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/pojo/EvaluationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/HotCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/pojo/HotCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/MyRemark.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/pojo/MyRemark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/pojo/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/PagingData.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/pojo/PagingData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/pojo/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/SchoolExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/pojo/SchoolExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/UserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/pojo/UserExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/UserRemark.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/pojo/UserRemark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/META-INF/young-manager-pojo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/CourseExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/CourseExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/CourseExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/CourseExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/CourseSelected.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/CourseSelectedExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/CourseSelectedExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/CourseSelectedExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/CourseSelectedExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/Evaluation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/EvaluationExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/EvaluationExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/EvaluationExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/EvaluationExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/HotCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/MyRemark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/PagingData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/SchoolExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/SchoolExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/SchoolExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/SchoolExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/UserExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/UserExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/UserExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/UserExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/classes/cn/young/manager/pojo/UserRemark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/src/main/java/cn/young/manager/service/Impl/AdminServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/src/main/java/cn/young/manager/service/Impl/BadWordUtil2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/src/main/java/cn/young/manager/service/Impl/CourseImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/src/main/java/cn/young/manager/service/Impl/CourseSelectedServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/src/main/java/cn/young/manager/service/Impl/EvaluationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/src/main/java/cn/young/manager/service/Impl/HotCourseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/src/main/java/cn/young/manager/service/Impl/SchoolServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/src/main/java/cn/young/manager/service/Impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/target/classes/cn/young/manager/service/Impl/AdminServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/target/classes/cn/young/manager/service/Impl/BadWordUtil2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/target/classes/cn/young/manager/service/Impl/CourseImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/target/classes/cn/young/manager/service/Impl/CourseSelectedServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/target/classes/cn/young/manager/service/Impl/EvaluationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/target/classes/cn/young/manager/service/Impl/HotCourseServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/target/classes/cn/young/manager/service/Impl/SchoolServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/target/classes/cn/young/manager/service/Impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/src/main/java/cn/young/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/src/test/java/cn/young/AppTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/young-manager/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/test/test/cn/young/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/test/test/cn/young/mapper/CourseMapperTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/test/test/cn/young/service/CourseSelectedServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/test/test/cn/young/service/CourseServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/CourseServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/test/test/cn/young/service/EvaluationServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/test/test/cn/young/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/HotCourseServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/coursedetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/coursedetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/webapp/css/comment.css" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/webapp/css/comment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/web/target/tomcat/logs/access_log.2019-03-27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/web/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/web/controller/CookieUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/web/controller/CourseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/web/controller/CourseDetailsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/web/controller/HotCourseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/web/controller/RecommendController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/web/controller/RemarkController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/web/controller/SchoolController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/web/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/resources/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/resources/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/resources/spring/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/mapper/CourseMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/mapper/CourseMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/CourseSelectedServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/CourseSelectedServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/CourseServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/CourseServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/EvaluationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/EvaluationServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/HotCourseServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/HotCourseServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/web/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/web/controller/CookieUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/web/controller/CourseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/web/controller/CourseDetailsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/web/controller/HotCourseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/web/controller/RecommendController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/web/controller/RecommendController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/web/controller/RemarkController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/web/controller/SchoolController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/classes/cn/young/manager/web/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/classes/dictionary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/classes/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/classes/spring/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/classes/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/classes/spring/spring-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/classes/spring/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/test-classes/cn/young/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/test-classes/cn/young/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/test-classes/cn/young/mapper/CourseMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/test-classes/cn/young/mapper/CourseMapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/test-classes/cn/young/service/CourseSelectedServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/test-classes/cn/young/service/CourseSelectedServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/test-classes/cn/young/service/CourseServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/test-classes/cn/young/service/CourseServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/test-classes/cn/young/service/EvaluationServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/test-classes/cn/young/service/EvaluationServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/test-classes/cn/young/service/HotCourseServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/test-classes/cn/young/service/HotCourseServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/test-classes/cn/young/service/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/test-classes/cn/young/service/UserServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/tomcat/logs/access_log.2019-03-28" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/coursedetails_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/coursedetails_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/coursedetails_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/coursedetails_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/header_jsp.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/header_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/header_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/school_jsp.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/school_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/school_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/schooldetail2_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/schooldetail2_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/schooldetail1_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/schooldetail1_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-manager/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/schooldetail1_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-parent/src/test/java/cn/young/AppTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/young-manager/interface/target/" />
     <ignored path="$PROJECT_DIR$/young-manager/service/target/" />
@@ -64,17 +365,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/resources/spring/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -140,19 +431,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/young-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/young-manager/web/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/young-manager/interface/src/main/java/cn/young/manager/service/HotCourseService.java" />
-        <option value="$PROJECT_DIR$/young-manager/service/src/main/java/cn/young/manager/service/Impl/HotCourseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/young-manager/interface/src/main/java/cn/young/manager/service/CourseService.java" />
-        <option value="$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/CourseSelected.java" />
-        <option value="$PROJECT_DIR$/young-manager/service/src/main/java/cn/young/manager/service/Impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/young-manager/interface/src/main/java/cn/young/manager/service/UserService.java" />
-        <option value="$PROJECT_DIR$/young-manager/interface/src/main/java/cn/young/manager/service/CourseSelectedService.java" />
-        <option value="$PROJECT_DIR$/young-manager/interface/pom.xml" />
-        <option value="$PROJECT_DIR$/young-manager/interface/src/test/java/service/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/young-manager/interface/src/test/java/service/CourseSelectedServiceTest.java" />
         <option value="$PROJECT_DIR$/young-manager/web/src/main/test/test/cn/young/service/CourseSelectedServiceTest.java" />
         <option value="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/updatepwd.jsp" />
@@ -163,7 +441,6 @@
         <option value="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/schooldetail1.jsp" />
         <option value="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/schooldetail2.jsp" />
         <option value="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/addhouse.jsp" />
-        <option value="$PROJECT_DIR$/young-manager/pom.xml" />
         <option value="$PROJECT_DIR$/young-manager/web/src/main/resources/dictionary.txt" />
         <option value="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/recommend.jsp" />
         <option value="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/adminlogin.jsp" />
@@ -181,7 +458,6 @@
         <option value="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/evaluation-list.jsp" />
         <option value="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/addHouse.jsp" />
         <option value="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/customer.jsp" />
-        <option value="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/indexTo.jsp" />
         <option value="$PROJECT_DIR$/young-common/pom.xml" />
         <option value="$PROJECT_DIR$/young-common/src/main/java/cn/young/common/utils/FastDFSClient.java" />
@@ -190,7 +466,22 @@
         <option value="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/coursedetails.jsp" />
         <option value="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/CourseMapper.xml" />
         <option value="$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/CourseMapper.java" />
+        <option value="$PROJECT_DIR$/young-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/young-manager/web/pom.xml" />
+        <option value="$PROJECT_DIR$/young-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/young-manager/web/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/young-manager/web/src/main/resources/spring/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/young-manager/web/src/main/resources/spring/spring-service.xml" />
+        <option value="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/CourseServiceTest.java" />
+        <option value="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/mapper/CourseMapperTest.java" />
+        <option value="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/CourseSelectedServiceTest.java" />
+        <option value="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/EvaluationServiceTest.java" />
+        <option value="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/HotCourseServiceTest.java" />
+        <option value="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/AppTest.java" />
       </list>
     </option>
   </component>
@@ -220,7 +511,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="149" />
     <option name="y" value="218" />
     <option name="width" value="1742" />
@@ -239,68 +530,65 @@
         <subPane>
           <expand>
             <path>
-              <item name="Young" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
               <item name="young-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Young" type="b2602c69:ProjectViewProjectNode" />
-              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young" type="b2602c69:ProjectViewProjectNode" />
-              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young" type="b2602c69:ProjectViewProjectNode" />
-              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Young" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
               <item name="young-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Young" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
               <item name="young-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Young" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
               <item name="young-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Young" type="b2602c69:ProjectViewProjectNode" />
-              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young" type="b2602c69:ProjectViewProjectNode" />
-              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
               <item name="young-manager" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Young" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
               <item name="young-manager" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -308,13 +596,136 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Young" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
               <item name="young-manager" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="young" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="young" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="young" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="young" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="young" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoursePlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="young-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="young" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,7 +738,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553783600469" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568452265273" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -364,7 +775,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CourseServiceTest">
+  <component name="RunManager" selected="Maven.manager">
     <configuration name="CourseServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.young.service.CourseServiceTest" />
       <module name="young-manager-web" />
@@ -576,7 +987,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226389000" />
+    <option name="totallyTimeSpent" value="227678000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -588,10 +999,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24034335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -601,7 +1011,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.22559653" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.22310306" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -610,10 +1020,10 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021322" side_tool="true" weight="0.22559653" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3264642" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32616082" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.329718" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.329718" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.3295583" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="CDI" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -627,6 +1037,43 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Maven" order="10" weight="0.32995737" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24034335" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.22310306" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021322" side_tool="true" weight="0.22559653" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3264642" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.3295583" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="2" weight="0.1652452" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32995737" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -652,7 +1099,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/young-manager/service/src/main/java/cn/young/manager/service/Impl/CourseSelectedServiceImpl.java</url>
           <line>43</line>
-          <properties class="cn.young.manager.service.Impl.CourseSelectedServiceImpl" method="clearEvaluation">
+          <properties class="cn.young.manager.service.Impl.CourseSelectedServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
@@ -671,120 +1118,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="269" column="16" selection-start-line="269" selection-start-column="16" selection-end-line="269" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/webapp/css/h-school.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="755" column="9" selection-start-line="755" selection-start-column="9" selection-end-line="755" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/recommend.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="80" column="72" selection-start-line="80" selection-start-column="72" selection-end-line="80" selection-end-column="72" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#legend#0;n#fieldset#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#legend#0;n#fieldset#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/webapp/img/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/webapp/css/k-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/web/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/web/controller/CourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/service/src/main/java/cn/young/manager/service/Impl/CourseSelectedServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-211">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getMyRemarkByCidAndUid#0;class#CourseSelectedServiceImpl#0" />
-            <element signature="docComment;method#chooseCourse#0;class#CourseSelectedServiceImpl#0" />
-            <element signature="docComment;method#quitCourse#0;class#CourseSelectedServiceImpl#0" />
-            <element signature="method#quitCourse#0;class#CourseSelectedServiceImpl#0" />
-            <element signature="e#6768#6769#0" expanded="true" />
-            <element signature="e#6828#6829#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/web/controller/RecommendController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/web/controller/HotCourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/web/controller/SchoolController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/java/cn/young/manager/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2409#2410#0" expanded="true" />
-            <element signature="e#2441#2442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2536" />
@@ -862,19 +1195,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/young-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d6d92683-e93c-43e9-98db-1b3088faa030/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d6d92683-e93c-43e9-98db-1b3088faa030/console.sql" />
     <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/resources/dictionary.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -896,13 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -931,16 +1245,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/test/test/cn/young/service/CourseSelectedServiceTest.java" />
-    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/CourseSelectedServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/young-manager/service/src/main/java/cn/young/manager/service/Impl/CourseImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -954,31 +1258,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/EvaluationServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/HotCourseServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/webapp/css/comment.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -996,20 +1279,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/CourseServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/young-manager/dao/src/main/java/cn/young/mapper/CourseMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
@@ -1024,10 +1293,169 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/pojo/src/main/java/cn/young/manager/pojo/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="332">
+            <caret line="253" lean-forward="true" selection-start-line="253" selection-end-line="253" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
+        <state relative-caret-position="1073">
           <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/resources/spring/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1218" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-parent/src/test/java/cn/young/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/common/TestRedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/CourseServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/mapper/CourseMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/CourseSelectedServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/EvaluationServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/HotCourseServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="13" column="140" selection-start-line="13" selection-start-column="140" selection-end-line="13" selection-end-column="140" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/service/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-505">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/test/cn/young/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="323" column="26" selection-start-line="323" selection-start-column="26" selection-end-line="323" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-manager/web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1392">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3277">
+          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
         </state>
       </provider>
     </entry>

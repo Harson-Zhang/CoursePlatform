@@ -17,10 +17,6 @@
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
     <modules>
-        <module>pojo</module>
-        <module>dao</module>
-        <module>interface</module>
-        <module>service</module>
         <module>web</module>
     </modules>
 
