@@ -27,8 +27,8 @@
 
 # 负责模块
 
-> 5人团队，按模块分工，分为首页、院校、用户信息、课程、后台模块
-> 我作为产品负责人和前后端开发者，负责：
+> 5人团队，按模块分工，分为首页、院校、用户信息、课程、后台模块  
+> 我作为产品负责人和前后端开发者，负责：  
 
 - 需求分析
   - 产品代办列表+用例图
@@ -96,7 +96,7 @@
 
 # 性能优化
 为了提升网站首页的访问速度和并发量，本人在项目后期进行了如下优化：
-1.  **引入Redis缓存分担MySQL压力** 
+1.  **引入Redis缓存分担MySQL压力**   
     逻辑：每次查询热点数据时，先在Redis中查询是否具有当前数据（缓存命中），如果没有则从数据库中查出来并放入Redis中，设置过期时间以保证数据时效性。一段时间内该数据的查询无需数据库MySQL的参与，将大大提升系统并发量。
 
   网站首页的热门课程和推荐课程处，使用Redis的Map结构缓存课程数据。其中key为两个自定义标识符，filed为每门课程的id，val为相关数据，代码如下：
@@ -157,12 +157,12 @@ public class SerializeUtil {
 
 运行/young-manager/web/src/main/test/cn/young/util/TestSerialize.java进行性能测试，得到结果如下：
 
-> ===== 自带字节数组序列化 =====
-> 耗费空间：462字节
-> 运行10000次耗时: 0.61ms
-> ===== 自定义序列化工具 =====
-> 耗费空间：70字节
-> 运行10000次耗时: 0.08ms
+> ===== 自带字节数组序列化 =====  
+> 耗费空间：462字节  
+> 运行10000次耗时: 0.61ms  
+> ===== 自定义序列化工具 =====  
+> 耗费空间：70字节  
+> 运行10000次耗时: 0.08ms  
 
 可见优化的效果相当明显。
 
@@ -201,33 +201,33 @@ http {
 
 其中，各参数的含义如下：
 
-**proxy_cache_path /tmp/cache**  	用于缓存的本地磁盘目录
-**levels=1:2**  	在缓存磁盘目录下设置了一个两级层次结构的目录
-**keys_zone=my_cache:10m** 	设置一个共享内存区my_cache来存储缓存键和元数据，大小10M
-**max_size=1g** 	缓存上限1g
-**inactive=60m** 	项目在不被访问的情况下能够在内存中保持的时间，60分钟
-**use_temp_path=off** 	nginx最初会将即将写入缓存的文件先放入一个临时存储区域，禁用后将去除该步骤
+**proxy_cache_path /tmp/cache**  	用于缓存的本地磁盘目录  
+**levels=1:2**  	在缓存磁盘目录下设置了一个两级层次结构的目录  
+**keys_zone=my_cache:10m** 	设置一个共享内存区my_cache来存储缓存键和元数据，大小10M  
+**max_size=1g** 	缓存上限1g    
+**inactive=60m** 	项目在不被访问的情况下能够在内存中保持的时间，60分钟  
+**use_temp_path=off** 	nginx最初会将即将写入缓存的文件先放入一个临时存储区域，禁用后将去除该步骤  
 
-**proxy_cache my_cache** 	有两个参数`zone`和`off`， `zone`的取值是`proxy_cache_path`指令中指定的共享内存区域名称的值（上例中的my_cache）， 如果取值为`off`则表示禁用缓存功能（注意限制范围）
-**proxy_cache_methods GET HEAD POST**  	配置可以存储什么方法的请求
-**proxy_cache_use_stale error timeout http_500 http_502 http_503 http_504** 		当无法从原始服务器获取最新的内容时（比如服务器宕机、繁忙），nginx可以分发缓存中的”过期“内容
-**proxy_cache_lock on** 	当多个客户端请求一个缓存中不存在的文件时，只有第一个能被发到服务器。其他请求要么在第一个请求获取文件成功后从缓存中获取文件，要么永远获取不到文件
-**add_header X-Cache-Status $upstream_cache_status** 	添加用来标识缓存状态的请求头，upstream_cache_status有多种状态，其中部分参数：
+**proxy_cache my_cache** 	有两个参数`zone`和`off`， `zone`的取值是`proxy_cache_path`指令中指定的共享内存区域名称的值（上例中的my_cache）， 如果取值为`off`则表示禁用缓存功能（注意限制范围）  
+**proxy_cache_methods GET HEAD POST**  	配置可以存储什么方法的请求  
+**proxy_cache_use_stale error timeout http_500 http_502 http_503 http_504** 		当无法从原始服务器获取最新的内容时（比如服务器宕机、繁忙），nginx可以分发缓存中的”过期“内容  
+**proxy_cache_lock on** 	当多个客户端请求一个缓存中不存在的文件时，只有第一个能被发到服务器。其他请求要么在第一个请求获取文件成功后从缓存中获取文件，要么永远获取不到文件  
+**add_header X-Cache-Status $upstream_cache_status** 	添加用来标识缓存状态的请求头，upstream_cache_status有多种状态，其中部分参数：  
 
-- HIT —— 响应包含来自缓存的最新有效的内容。 
-- MISS —— 响应在缓存中找不到，所以需要在服务器中取得
-- EXPIRED —— 缓存中的某一项过期了，来自原始服务器的响应包含最新的内容
+- HIT —— 响应包含来自缓存的最新有效的内容。   
+- MISS —— 响应在缓存中找不到，所以需要在服务器中取得  
+- EXPIRED —— 缓存中的某一项过期了，来自原始服务器的响应包含最新的内容  
 
-Nginx配置完成后，在Chrome浏览器打开“检查 - Network”，尝试多次加载后，查看网页页面的响应头，得到结果如下：
+Nginx配置完成后，在Chrome浏览器打开“检查 - Network”，尝试多次加载后，查看网页页面的响应头，得到结果如下：  
 
-> HTTP/1.1 200 OK
-> Server: nginx/1.10.3 (Ubuntu)
-> Content-Type: text/html;charset=utf-8
-> Transfer-Encoding: chunked
-> Connection: keep-alive
-> Content-Language: zh-CN
->  **X-Cache-Status: HIT** 
-> Content-Encoding: gzip
+> HTTP/1.1 200 OK  
+> Server: nginx/1.10.3 (Ubuntu)  
+> Content-Type: text/html;charset=utf-8  
+> Transfer-Encoding: chunked  
+> Connection: keep-alive  
+> Content-Language: zh-CN  
+>  **X-Cache-Status: HIT**   
+> Content-Encoding: gzip  
 
 代表Nginx缓存启动成功。
 
