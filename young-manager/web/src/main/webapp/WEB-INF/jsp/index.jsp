@@ -18,7 +18,7 @@
     <div class="layui-header title">
         <div class="layui-container">
             <div class="layui-logo layui-pull-left">
-                <img src="http://pxkc6qwb1.bkt.clouddn.com/image/young/frontpagelogo.png" width="360px">
+                <img src="http://cdn.zhx2019.cn/image/young/frontpagelogo.png" width="360px">
             </div>
 
             <c:if test="${not empty loginUser }">
@@ -50,10 +50,10 @@
         </div>
     </div>
     <div carousel-item style="">
-        <div style="background: url('http://pxkc6qwb1.bkt.clouddn.com/image/young/dongnan4.jpg')no-repeat center/cover"></div>
-        <div style="background: url('http://pxkc6qwb1.bkt.clouddn.com/image/young/dongnan1.jpg')no-repeat center/cover"></div>
-        <div style="background: url('http://pxkc6qwb1.bkt.clouddn.com/image/young/dongnan5.jpg')no-repeat center/cover"></div>
-        <div style="background: url('http://pxkc6qwb1.bkt.clouddn.com/image/young/nanda1.jpg')no-repeat center/cover"></div>
+        <div style="background: url('http://cdn.zhx2019.cn/image/young/dongnan4.jpg')no-repeat center/cover"></div>
+        <div style="background: url('http://cdn.zhx2019.cn/image/young/dongnan1.jpg')no-repeat center/cover"></div>
+        <div style="background: url('http://cdn.zhx2019.cn/image/young/dongnan5.jpg')no-repeat center/cover"></div>
+        <div style="background: url('http://cdn.zhx2019.cn/image/young/nanda1.jpg')no-repeat center/cover"></div>
     </div>
 </div>
 
